@@ -42,6 +42,26 @@ https://www.figma.com/design/zXgn3436jU2KUtdDpn6tFl/Travel-Planner?node-id=1-2&t
 
 ## 4. What Makes It Different
 
+Traditional travel tools are highly fragmented: travelers use **TripAdvisor** to research attractions, **Google Maps** for navigation, **Splitwise** to track expenses, and **WhatsApp/Telegram** to debate itineraries. Our application is a unified, intelligent command center designed for the modern traveler. 
+
+Here are the novel twists that set our platform apart:
+
+*   **Real-Time Weather Optimization (The Rerouting Engine):** Instead of manually replanning when rain or unexpected weather ruins outdoor plans, our application actively monitors forecasts from the **Weather API** and triggers an automatic itinerary adjustment. If there is predicted rain, it instantly swaps outdoor attractions (e.g., temples or parks) with indoor alternatives (e.g., museums, galleries, or indoor dining) within your path.
+*   **Intelligent Proximity-Based Discovery (Context-Aware Map):** Rather than cluttering the screen with thousands of points, our map leverages the **Google Maps API** to filter destinations smartly by range: locating and highlighting key **tourist attractions within a 2km radius** and top-rated **local dining spots within a 1km radius** of your active location. 
+*   **Integrated Multi-Modal Transit comparison:** While normal navigation tools only show one route at a time, selecting any location on our map instantly overlay-compares walking paths, driving, and live public transit schedules via a commercial public transit API in a single, glanceable card.
+
+### Feature Comparison Matrix
+
+The table below demonstrates how our solution bridges the gaps left by existing fragmented platforms:
+
+| Feature | Traditional Planners (e.g., Wanderlog) | Navigation Apps (e.g., Google Maps) | Budget Trackers (e.g., Splitwise) | Our Smart Travel Planner |
+|:---|:---|:---|:---|:---|
+| **All-in-One Dashboard** | ❌ (No budgeting/nav) | ❌ (No budgeting/planning) | ❌ (Expense tracking only)| **✅ Yes (Unified)** |
+| **Real-Time Weather Rerouting**| ❌ No | ❌ No | ❌ No | **✅ Yes (Automated)** |
+| **Dual Proximity Filtering** | ❌ No | ❌ (No range limits) | ❌ No | **✅ Yes (2km Attractions / 1km Dining)** |
+| **Unified Multi-Modal Transit**| ❌ No | ⚠️ Partial | ❌ No | **✅ Yes (Multi-transit overlay)** |
+| **Group Travel Gamification** | ❌ No | ❌ No | ❌ No | **✅ Yes (Travel Bingo)** |
+
 
 ## 5. Technical Architecture & Feasibility
 ### Tech Stack
