@@ -41,7 +41,6 @@ a
 https://www.figma.com/design/zXgn3436jU2KUtdDpn6tFl/Travel-Planner?node-id=1-2&t=hmOs5VZoQLfiX61W-1
 
 ## 4. What Makes It Different
-
 Traditional travel tools are highly fragmented: travelers use **TripAdvisor** to research attractions, **Google Maps** for navigation, **Splitwise** to track expenses, and **WhatsApp/Telegram** to debate itineraries. Our application is a unified, intelligent command center designed for the modern traveler. 
 
 Here are the novel twists that set our platform apart:
@@ -60,7 +59,6 @@ The table below demonstrates how our solution bridges the gaps left by existing 
 | **Real-Time Weather Rerouting**| ❌ No | ❌ No | ❌ No | **✅ Yes (Automated)** |
 | **Dual Proximity Filtering** | ❌ No | ❌ (No range limits) | ❌ No | **✅ Yes (2km Attractions / 1km Dining)** |
 | **Unified Multi-Modal Transit**| ❌ No | ⚠️ Partial | ❌ No | **✅ Yes (Multi-transit overlay)** |
-| **Group Travel Gamification** | ❌ No | ❌ No | ❌ No | **✅ Yes (Travel Bingo)** |
 
 
 ## 5. Technical Architecture & Feasibility
