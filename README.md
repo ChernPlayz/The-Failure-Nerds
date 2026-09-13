@@ -2,7 +2,6 @@
 Team: Lee Fu Chern, Lee Guan Hong, Law Jin Tao, Joshua Chin Wai Kit  
 Problem Statement: Travel Planner  
 Video Presentation: -
-
 Presentation Slides: - [Slides](https://canva.link/nvoyxvwv84y6vzs)
 
 ## 1. Project Overview
