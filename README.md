@@ -71,6 +71,38 @@ Database - MongoDB, because it is easy to use
 APIs - Google maps API becuase
 Hosting server - Render because
 
-### System architecture diagram
+### System architecture diagram 
 
 ### Build plan & scope
+
+For this hackathon, our goal is to build a reliable and working prototype. Instead of trying to build everything poorly, we focus on a clean, working demo for **one city (Tokyo)** that proves our core ideas work.
+
+#### What We Will :
+
+We will build a mobile-responsive web app with 3 core screens:
+
+*   **Screen 1: Trip Setup (Landing Screen)**
+    *   Users can enter a destination, travel dates, group size, and total budget.
+    *   A clean, modern design with a glass-card interface.
+
+*   **Screen 2: Smart Dashboard & Weather Alert**
+    *   Displays the selected trip summary and group budget per person.
+    *   Shows hostel recommendations based on the user's budget.
+    *   **The Weather Twist:** A live alert card that detects rain on trip dates and suggests indoor activities nearby.
+
+*   **Screen 3: Interactive Map & Route Finder**
+    *   A map screen with clear filters: places to eat within 1 km and tourist attractions within 2 km.
+    *   A route card showing travel time and options for **walking, public transit, or car**.
+
+*   **Fixed Navigation Bar:**
+    *   Allows smooth switching between the Home, Budget, and Map screens.
+
+---
+
+### 2. What Is Out of Scope (Future Work)
+
+To make sure our project works smoothly during the judging presentation, we will not build:
+
+*   **Real booking & payments:** We display hostel recommendations and estimated prices, but we will not process real bank payments.
+*   **Worldwide data:** We focus our demo data on Tokyo so the app runs fast and without API errors during judging.
+
