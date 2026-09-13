@@ -1,8 +1,8 @@
 # Travel Planner by The Failure Nerds
 Team: Lee Fu Chern, Lee Guan Hong, Law Jin Tao, Joshua Chin Wai Kit  
 Problem Statement: Travel Planner  
-Video Presentation:  [Unlisted Youtube Link]  
-Presentation Slides: [Public Link]  
+Video Presentation: -
+Presentation Slides: -
 
 ## 1. Project Overview
 **The Problem:**  
@@ -28,7 +28,7 @@ Our app will solve the issue of having to switch between apps and make it into a
 | AR Navigation for Historical Landmarks | Dropped: Exceeded building scope and increased mobile battery drain significantly during full-day travel. |
 
 ### 2.2 Ideation Boards
-a
+![ideation board](ideationBoard.png)
 
 ### 2.3 Mentor Consultation
 | Date | Mentor | Feedback Received | What Was Changed|
@@ -41,7 +41,6 @@ a
 https://www.figma.com/design/zXgn3436jU2KUtdDpn6tFl/Travel-Planner?node-id=1-2&t=hmOs5VZoQLfiX61W-1
 
 ## 4. What Makes It Different
-
 Traditional travel tools are highly fragmented: travelers use **TripAdvisor** to research attractions, **Google Maps** for navigation, **Splitwise** to track expenses, and **WhatsApp/Telegram** to debate itineraries. Our application is a unified, intelligent command center designed for the modern traveler. 
 
 Here are the novel twists that set our platform apart:
@@ -60,18 +59,18 @@ The table below demonstrates how our solution bridges the gaps left by existing 
 | **Real-Time Weather Rerouting**| ❌ No | ❌ No | ❌ No | **✅ Yes (Automated)** |
 | **Dual Proximity Filtering** | ❌ No | ❌ (No range limits) | ❌ No | **✅ Yes (2km Attractions / 1km Dining)** |
 | **Unified Multi-Modal Transit**| ❌ No | ⚠️ Partial | ❌ No | **✅ Yes (Multi-transit overlay)** |
-| **Group Travel Gamification** | ❌ No | ❌ No | ❌ No | **✅ Yes (Travel Bingo)** |
 
 
 ## 5. Technical Architecture & Feasibility
 ### Tech Stack
-Frontend - React Native, because it supports both Android & iOS mobile development  
-Backend - X  
-Database - MongoDB, because it is easy to use  
-APIs - Google maps API becuase
-Hosting server - Render because
+**Frontend** - Expo framework, React Native, because it supports both Android & iOS mobile development  
+**Backend** - X  
+**Database** - MongoDB, because it is easy to use with BSON and UpdateOne(), DeleteOne() etc.  
+**APIs** - Google maps API because there's  free version and that data is accurate  
+**Hosting server** - Render because it is easy to just connect and run it 24/7
 
 ### System architecture diagram 
+none
 
 ### Build plan & scope
 
@@ -105,4 +104,6 @@ To make sure our project works smoothly during the judging presentation, we will
 
 *   **Real booking & payments:** We display hostel recommendations and estimated prices, but we will not process real bank payments.
 *   **Worldwide data:** We focus our demo data on Tokyo so the app runs fast and without API errors during judging.
+
+
 
