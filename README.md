@@ -1,8 +1,8 @@
 # Travel Planner by The Failure Nerds
 Team: Lee Fu Chern, Lee Guan Hong, Law Jin Tao, Joshua Chin Wai Kit  
 Problem Statement: Travel Planner  
-Video Presentation:  [Unlisted Youtube Link]  
-Presentation Slides: [Public Link]  
+Video Presentation: -
+Presentation Slides: -
 
 ## 1. Project Overview
 **The Problem:**  
@@ -63,11 +63,11 @@ The table below demonstrates how our solution bridges the gaps left by existing 
 
 ## 5. Technical Architecture & Feasibility
 ### Tech Stack
-Frontend - React Native, because it supports both Android & iOS mobile development  
-Backend - X  
-Database - MongoDB, because it is easy to use  
-APIs - Google maps API becuase
-Hosting server - Render because
+**Frontend** - Expo framework, React Native, because it supports both Android & iOS mobile development  
+**Backend** - X  
+**Database** - MongoDB, because it is easy to use with BSON and UpdateOne(), DeleteOne() etc.  
+**APIs** - Google maps API because there's  free version and that data is accurate  
+**Hosting server** - Render because it is easy to just connect and run it 24/7
 
 ### System architecture diagram
 
