@@ -1,8 +1,8 @@
 # Travel Planner by The Failure Nerds
-Team: Lee Fu Chern, Lee Guan Hong, Law Jin Tao, Joshua Chin Wai Kit  
-Problem Statement: Travel Planner  
-Video Presentation: -
-Presentation Slides: - [Slides](https://canva.link/nvoyxvwv84y6vzs)
+**Team:** Lee Fu Chern, Lee Guan Hong, Law Jin Tao, Joshua Chin Wai Kit  
+**Problem Statement:** Travel Planner  
+**Video Presentation:** https://www.youtube.com/watch?v=8WbcaJlKeog  
+**Presentation Slides:** https://canva.link/nvoyxvwv84y6vzs  
 
 ## 1. Project Overview
 **The Problem:**  
@@ -102,6 +102,3 @@ To make sure our project works smoothly during the judging presentation, we will
 
 *   **Real booking & payments:** We display hostel recommendations and estimated prices, but we will not process real bank payments.
 *   **Worldwide data:** We focus our demo data on Tokyo so the app runs fast and without API errors during judging.
-
-
-
