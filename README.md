@@ -28,7 +28,7 @@ Our app will solve the issue of having to switch between apps and make it into a
 | AR Navigation for Historical Landmarks | Dropped: Exceeded building scope and increased mobile battery drain significantly during full-day travel. |
 
 ### 2.2 Ideation Boards
-a
+![ideation board](ideationBoard.png)
 
 ### 2.3 Mentor Consultation
 | Date | Mentor | Feedback Received | What Was Changed|
