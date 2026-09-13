@@ -96,9 +96,7 @@ We will build a mobile-responsive web app with 3 core screens:
 *   **Fixed Navigation Bar:**
     *   Allows smooth switching between the Home, Budget, and Map screens.
 
----
-
-### 2. What Is Out of Scope (Future Work)
+#### What Is Out of Scope (Future Work)
 
 To make sure our project works smoothly during the judging presentation, we will not build:
 
